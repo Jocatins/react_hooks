@@ -1,10 +1,12 @@
 import "./App.css";
-import DataFetching from "./components/DataFetching";
+import Counter1 from "./components/Counter1";
+import Counter2 from "./components/Counter2";
 
 function App() {
   return (
     <div className="App">
-      <DataFetching />
+      <Counter1 />
+      <Counter2 />
     </div>
   );
 }
